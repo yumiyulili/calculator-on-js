@@ -18,15 +18,15 @@ function addNumbers() {
 
   let result;
 
-  if (symbol == "*") {
+  if (symbol == "umn") {
 
     result = num1 * num2;
 
-  } else if (symbol == "+") {
+  } else if (symbol == "plus") {
 
     result = num1 + num2;
 
-  } else if (symbol == "/") {
+  } else if (symbol == "del") {
     if (num2 == 0) {
       alert("error");
       return;
@@ -34,7 +34,7 @@ function addNumbers() {
 
     result = num1 / num2;
 
-  } else if (symbol == "-") {
+  } else if (symbol == "minus") {
 
     result = num1 - num2;
     
