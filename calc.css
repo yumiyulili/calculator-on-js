@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Quicksand;
+}
+
+#square{
+     width: 320px;
+     height: 400px;
+     background-color: rgb(30, 30, 30);
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 150px;
+     border-radius: 5px;
+     outline: 3px solid black;
+     outline-offset: 3px ;
+     position: relative;
+     
+}
+
+#result{
+    color: rgb(255, 255, 255);
+}
+
+#num1{
+    margin-left: 590px;
+    margin-top: -360px;
+    width: 130px;
+    position: absolute;
+}
+#num2{
+    width: 130px;
+    position: absolute;
+    margin-left: 765px;
+    margin-top: -360px;
+}
+#symbol{
+    margin-left: 729px;
+    margin-top: -360px;
+    position: absolute;
+}
+
+
+#cl{
+    margin-left: 680px;
+    margin-top: -335px;
+    width: 50px;
+    position: absolute;
+}
+
+#calc{
+    position: absolute;
+    margin-left: 591px;
+    margin-top: -335px;
+    width: 80px;
+    
+}
+#result{
+    margin-left: 591px;
+    margin-top: -313px;
+    position: absolute;
+}
+#sv + span{
+    margin-left: 750px;
+    margin-top: -335px;
+    z-index: 1000;
+    color: rgb(255, 255, 255);
+    position: absolute;
+}
+#sv{
+    margin-left: 735px;
+    margin-top: -330px;
+    z-index: 1000;
+    accent-color: rgb(255, 255, 255);
+    position: absolute;
+}

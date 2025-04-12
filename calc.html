@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>calculator</title>
+    <link rel="stylesheet" href="calc.css">
 </head>
 <body>
+    <div id="square"></div>
     <input type="text" id="num1" placeholder=" ">
     <select id="symbol">
         <option value="umn">*</option>
@@ -14,13 +16,13 @@
         <option value="minus">-</option>
      
     <input type="text" id="num2" placeholder=" ">
-    <button onclick="addNumbers()">Calculate</button>
+    <button onclick="addNumbers()" id="calc" >Calculate</button>
     <div id="result"> </div>
-    <button onclick="cleanInput()">Clear</button>
+    <button onclick="cleanInput()" id="cl">Clear</button>
     <input type="checkbox" id="sv"><span>Save</span>
     
 
 
-    <script src="k.js"></script>
+    <script src="calc.js"></script>
 </body>
 </html>
